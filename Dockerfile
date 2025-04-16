@@ -6,4 +6,4 @@ RUN pip install -r requirements.txt
 WORKDIR src/
 COPY src .
 
-ENTRYPOINT [ "python", "main.py" ]  
+ENTRYPOINT [ "python", "src/main.py" ]  
